@@ -12,7 +12,7 @@ public class ScoreManager : MonoBehaviour
     int ScoreThres = 0;
     int level;
 
-    // Add a reference to the text for displaying notifications
+    
     [SerializeField] TMP_Text notificationText;
 
     void Start()

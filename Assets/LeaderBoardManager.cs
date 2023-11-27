@@ -49,7 +49,7 @@ public class LeaderboardManager : MonoBehaviour
 
     void SaveLeaderboard()
     {
-        // Convert the list of scores to a JSON-formatted string
+        // Convert the list to JSON-formatted string
         string jsonScores = JsonUtility.ToJson(new LeaderboardData(leaderboardScores));
 
         // Save the JSON string to PlayerPrefs

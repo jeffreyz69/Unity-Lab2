@@ -25,7 +25,7 @@ public class AudioAdjust : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // You can add other logic here if needed
+        
     }
 
     // This method is called when the toggle is switched
